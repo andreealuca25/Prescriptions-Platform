@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  /* align-content: flex-start; */
+  flex-direction: column;
+  /* justify-content: center; */
+  background-color: #ebfbf3;
+  overflow: hidden;
+}
+
+* {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+}

@@ -1,0 +1,35 @@
+.patient-prescriptions-wrapper {
+  width: 80%;
+  background-color: #faefef;
+  margin-top: 2%;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+.filter-wrapper,
+.sorter-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.patients-details-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.patient-info {
+  margin: auto;
+}
+
+.pers-info-box{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 5%; */
+  margin: auto;
+  width: 30%;
+  padding-top: 5%;
+}

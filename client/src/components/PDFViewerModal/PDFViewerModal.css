@@ -1,0 +1,12 @@
+.open-modal-bttn,
+.delete-modal-bttn {
+  display: none;
+}
+
+.prescription:hover .open-modal-bttn {
+  display: inline-block;
+}
+
+.prescription:hover .delete-modal-bttn {
+  display: inline-block;
+}

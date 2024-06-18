@@ -1,0 +1,31 @@
+.menu-item-link{
+  text-decoration:none !important;
+  color:black;
+}
+
+.menues {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.btn-copy {
+  background-color: #38afdd;
+  border: transparent;
+  border-bottom: 2px solid #0086b7;
+  border-radius: 2px;
+  padding: 10px;
+  min-width: 100px;
+  color: #fff;
+}
+.btn-copy:hover,
+.btn-copy:focus {
+  background-color: #48a1c1;
+  border-bottom: 2px solid #38afdd;
+  /*transition cross browser*/
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}

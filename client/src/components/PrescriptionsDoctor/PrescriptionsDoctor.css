@@ -1,0 +1,15 @@
+.prescriptions {
+  display: flex;
+  /* height: 500px; */
+  height: 80vh;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+.prescription {
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}

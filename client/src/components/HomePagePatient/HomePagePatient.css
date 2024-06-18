@@ -1,0 +1,43 @@
+.homepage-container{
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: #fceded;
+}
+
+.welcome-container{
+    display: flex;
+    background-image: -webkit-linear-gradient(30deg, white 50%, #fceded 50%);
+    padding-bottom: 2%;
+}
+
+.offer-container{
+    display: flex;
+    justify-content: space-around;
+    margin:5%;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px 5px 0 0;
+    width: 30%;
+    background: white;
+  }
+
+  .offer:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.offer-icon{
+    width: 100%;
+}
+
+.text-box{
+    margin-left: 2%;
+}
